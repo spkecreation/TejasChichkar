@@ -336,6 +336,32 @@ h1{
 .site-footer a:hover {
     text-decoration: underline;
 }
+
+.conbtn{
+    display: grid;
+    height: 40px;
+    border-radius: 50px;
+    align-items: center;
+    font-size: 120%;
+    background-color: #c02475;
+    border: none;
+}
+
+.conbtn:hover {
+    cursor: pointer;
+    background-color: #f5d49d;
+}
+
+.conbtn:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.header{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
  
 
 @media (min-width: 769px) {
