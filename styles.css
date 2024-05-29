@@ -1,0 +1,372 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #240A34;
+}
+ul li a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	/* min-height: 100vh; */
+
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+
+h4,
+a {
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+.logo {
+	margin: 0;
+	font-size: 1.45rem;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-transform: uppercase;
+	text-align: center;
+	display: block;
+}
+.contact{
+    display: none;
+}
+.main-nav a {
+	color: #ffffff;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #b9b9b9;
+}
+
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	/* border: 1px solid #a2a2a2;
+	background-color: #f4f4f4; */
+	/* -webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75); */
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+    padding: 20px 40px;
+    /* height: 70px; */
+}
+
+.sec1{
+    padding: 0px 100px;
+    padding-bottom: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* border: solid red 2px; */
+    text-align: center;
+    align-items: center;
+}
+.text1{
+    font-size: 250%;
+    /* background-color: grey; */
+}
+.text1 h2{
+    color: #eabe6c;
+    margin: 0;
+}
+
+.sec2{
+    font-size: 150%;
+    text-align: center;
+    padding: 50px 100px;
+    background-color: #891652;
+    color: #eabe6c;
+}
+.sec3{
+    text-align: center;
+    color: white;
+    padding: 50px;
+    /* background-color: white; */
+}
+.slider{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    position: relative;
+}
+
+.arrow{
+    padding: 50%;
+}
+
+.arrow-left, .arrow-right {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    cursor: pointer;
+}
+
+.arrow-left {
+    border-width: 20px 20px 20px 0;
+    border-color: transparent rgb(255, 255, 255) transparent transparent;
+}
+
+.arrow-right {
+    border-width: 20px 0 20px 20px;
+    border-color: transparent transparent transparent rgb(255, 255, 255);
+    position: absolute;
+    right: 0;
+}
+
+.arrow-right:hover{
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.5);
+}
+.arrow-left:hover{
+    border-color: transparent rgba(255, 255, 255, 0.5) transparent transparent;
+}
+
+.sec4{
+    color: #240A34;
+    padding: 50px;
+    margin: 50px;
+    background-color: #eabe6c;
+}
+.para1{
+    list-style-type: disc;
+    padding-left: 20px;
+}
+.para1 p{
+    position: relative;
+    margin-left: 20px;
+}
+.para1 p::before {
+    content: '•';
+    position: absolute;
+    left: -20px; 
+    color: black;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+
+/* ////////////////////////////ProgrammerText////////////////////////////////////////////////////// */
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy");
+/* BODY */
+/* body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: skyblue;
+  background-image: -webkit-linear-gradient(90deg, skyblue 0%, steelblue 100%);
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  overflow: hidden;
+  font-family: "Luckiest Guy", cursive;
+  -webkit-font-smoothing: antialiased;
+} */
+
+::selection {
+  background: transparent;
+}
+/* CLOUDS */
+/* body:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  margin: auto;
+  border-radius: 100%;
+  background: transparent;
+  display: block;
+  box-shadow: 0 0 150px 100px rgba(255, 255, 255, 0.6),
+    200px 0 200px 150px rgba(255, 255, 255, 0.6),
+    -250px 0 300px 150px rgba(255, 255, 255, 0.6),
+    550px 0 300px 200px rgba(255, 255, 255, 0.6),
+    -550px 0 300px 200px rgba(255, 255, 255, 0.6);
+} */
+/* JUMP */
+/* h1 {
+  cursor: default;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  margin: auto;
+  display: block;
+  text-align: center;
+} */
+
+
+h1 span {
+  position: relative;
+  top: 20px;
+  display: inline-block;
+  animation: bounce 0.3s ease infinite alternate;
+  font-size: 45px;
+  color: #c02475;
+  padding: 0;
+  margin: 0;
+  text-shadow: 0 1px 0 #891652, 0 2px 0 #891652, 0 3px 0 #891652, 0 4px 0 #891652,
+    0 5px 0 #891652, 0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent,
+    0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+h1 span:nth-child(2) {
+  animation-delay: 0.1s;
+}
+
+h1 span:nth-child(3) {
+  animation-delay: 0.2s;
+}
+
+h1 span:nth-child(4) {
+  animation-delay: 0.3s;
+}
+
+h1 span:nth-child(5) {
+  animation-delay: 0.4s;
+}
+
+h1 span:nth-child(6) {
+  animation-delay: 0.5s;
+}
+
+h1 span:nth-child(7) {
+  animation-delay: 0.6s;
+}
+
+h1 span:nth-child(8) {
+  animation-delay: 0.2s;
+}
+
+h1 span:nth-child(9) {
+  animation-delay: 0.3s;
+}
+
+h1 span:nth-child(10) {
+  animation-delay: 0.4s;
+}
+
+h1 span:nth-child(11) {
+  animation-delay: 0.5s;
+}
+
+h1 span:nth-child(12) {
+  animation-delay: 0.6s;
+}
+
+h1 span:nth-child(13) {
+  animation-delay: 0.7s;
+}
+
+h1 span:nth-child(14) {
+  animation-delay: 0.8s;
+}
+
+/* ANIMATION */
+@keyframes bounce {
+  100% {
+    top: -20px;
+    /* text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc,
+      0 5px 0 #ccc, 0 6px 0 #ccc, 0 7px 0 #ccc, 0 8px 0 #ccc, 0 9px 0 #ccc,
+      0 50px 25px rgba(0, 0, 0, 0.2); */
+  }
+}
+h1{
+    /* font-family: "Luckiest Guy", cursive; */
+    margin: 0;
+    font-weight: 150%;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.site-footer {
+    background-color: #891652;
+    color: #fff;
+    padding: 20px 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: auto;
+}
+
+.site-footer a {
+    color: #eabe6c; /* Gold color */
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+ 
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+    	.header{
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+	}
+
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+.container div {
+    display: none;
+    width: 100%;
+}
+
+.container div.active {
+    display: block;
+}
