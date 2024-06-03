@@ -19,5 +19,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     document.querySelector('.container').addEventListener('click', () => {
         window.location.href = "Games.html";
-    });    
+    });
 });
