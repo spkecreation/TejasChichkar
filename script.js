@@ -18,6 +18,6 @@ document.addEventListener('DOMContentLoaded', () => {
         window.location.href = "https://www.google.com";
     });
     document.querySelector('.container').addEventListener('click', () => {
-        window.location.href = "https://www.google.com";
-    });
+        window.location.href = "Games.html";
+    });    
 });
