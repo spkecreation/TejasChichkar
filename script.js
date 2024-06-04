@@ -20,4 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.querySelector('.container').addEventListener('click', () => {
         window.location.href = "Games.html";
     });
+    document.querySelector('.conbtn').addEventListener('click', () => {
+        window.location.href = "https://www.google.com";
+    });
 });

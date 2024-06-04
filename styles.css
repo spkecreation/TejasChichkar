@@ -121,6 +121,20 @@ a {
     align-items: center;
     position: relative;
 }
+.container{
+  cursor: pointer;
+}
+.container img:hover{
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+
+}
+.container img{
+  -webkit-transform: scale(1);
+  -webkit-transition: 0.3s ease-in-out;
+  transform: scale(1);
+  transition: 0.3s ease-in-out;
+}
 
 .arrow{
     padding: 50%;
