@@ -16,6 +16,7 @@ body{
     display: grid;
     grid-template-columns: 1fr 1fr;
     filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, 0.39));
+    align-items: center;
 }
 .gameImg{
     width: 500px;
@@ -27,7 +28,7 @@ body{
 }
 .gameText{
     padding: 20px;
-    line-height: 30px;
+    line-height: 20px;
     text-align: justify;
 }
 .gamecontainer button{
